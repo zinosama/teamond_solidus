@@ -4,6 +4,7 @@ AllCops:
     - ".bundle/**/*" # Auto-generated
     - "bin/**/*"     # Auto-generated
     - "vendor/**/*"  # We cannot solve the world's problems
+    - "db/migrate/*" # Don't worry about migration files
   TargetRubyVersion: 2.3
 
 Rails:
