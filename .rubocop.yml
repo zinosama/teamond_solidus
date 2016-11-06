@@ -1,0 +1,9 @@
+inherit_from:
+  - .rubocop-teamond.yml
+
+# Overrides can go here.
+#
+# Example...
+# Metrics/CyclomaticComplexity:
+#   Enabled: false # We've got nasty methods!
+#
